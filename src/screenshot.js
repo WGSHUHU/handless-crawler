@@ -5,7 +5,7 @@ const { screenShotPath } = require('./config/default')
   const page = await browser.newPage()
   await page.goto('https://www.baidu.com/')
   await page.screenshot({
-    path: `${screenShotPath}/${Date.now()}.png`
+    path: `${screenShotPath}/${Date.now()}.jpg`
   })
   await browser.close()
 })()
