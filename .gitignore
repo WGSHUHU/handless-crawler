@@ -7,3 +7,8 @@ node_modules/
 build/
 package-lock.json
 screenshot/**/*.png
+screenshot/**/*.jpg
+screenshot/**/*.gif
+mn/**/*.png
+mn/**/*.jpg
+mn/**/*.gif
